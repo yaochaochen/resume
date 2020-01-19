@@ -201,7 +201,7 @@ public class YueBusinessLogicException extends YueException {
 - [Spring-Dive](https://github.com/yaochaochen/note/blob/master/spring-dive/)
 
 - [Spring-Boot-Dive](https://github.com/yaochaochen/note/blob/master/spring-boot-dive)
-- [每日SQL]([https://github.com/yaochaochen/note/blob/master/sql/SQL每日一题.md]) 
+- [每日SQL](https://github.com/yaochaochen/note/blob/master/sql/SQL每日一题.md) 
 
 ------
 
@@ -218,7 +218,7 @@ public class YueBusinessLogicException extends YueException {
 ## 演讲和讲义
 
 - Mock使用分享 
-- [机器学习简单应用分享]([https://github.com/yaochaochen/note/blob/master/Machine/机器学习算法基础.md])
+- [机器学习简单应用分享](https://github.com/yaochaochen/note/blob/master/Machine/机器学习算法基础.md)
 - [Spring IoC讨论](https://github.com/yaochaochen/note/blob/master/spring-dive/Spring%20IOC%20%E5%AE%B9%E5%99%A8%E6%A6%82%E8%BF%B0.md]) 
 
 ## 技能清单
