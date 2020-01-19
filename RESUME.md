@@ -222,6 +222,3 @@ public class YueBusinessLogicException extends YueException {
 - [Spring IoC讨论]([https://github.com/yaochaochen/note/blob/master/spring-dive/Spring%20IOC%20%E5%AE%B9%E5%99%A8%E6%A6%82%E8%BF%B0.md](https://github.com/yaochaochen/note/blob/master/spring-dive/Spring IOC 容器概述.md)) 
 
 ## 技能清单
-
-
-
