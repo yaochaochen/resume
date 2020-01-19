@@ -116,7 +116,8 @@ private void checkSign(ServerHttpRequest request, String body, String accountCod
 
 ```sql
 -- 避免 in 查询 使用 regexp_split_to_table 函数 效率比In快100倍
-SELECT A.platform_check_record_code FROM ( SELECT regexp_split_to_table( ?1, ',' ) AS svc_no ) AS tt JOIN svc_order A ON tt.svc_no = A.svc_no
+SELECT A.platform_check_record_code FROM 
+( SELECT regexp_split_to_table( ?1, ',' ) AS svc_no ) AS tt JOIN svc_order A ON tt.svc_no = A.svc_no
 ```
 
 
@@ -124,7 +125,8 @@ SELECT A.platform_check_record_code FROM ( SELECT regexp_split_to_table( ?1, ','
 ```sql
 --使用 DISTINCT 关键字 避免多表关联
 --- AND e.refundNo ~ 模糊查询 使得走 B-Tree 索引
-SELECT DISTINCT e.refundStatus ,e.refundNo,e.opStaffName,d.audit_status AS auditStatus,e.createTime,e.contactName,e.contactPhone,e.distributorCode,e.opHallCode FROM ( SELECT DISTINCT e.contact_phone AS contactPhone,e.contact_name AS contactName,A .refund_no AS refundNo,to_char(A.create_time, 'YYYY-MM-DD HH24:MI') AS createTime, A.refund_status AS refundStatus,A .op_staff_name AS opStaffName,A.distributor_code AS distributorCode,A.op_hall_code AS opHallCode FROM order_info e JOIN refund A ON e.order_no = A .order_no ) e JOIN ( SELECT b.audit_status,b.refund_no,b.op_staff_name FROM refund_log b WHERE b.create_time = ( SELECT MAX (create_time) FROM refund_log C WHERE b.refund_no = C .refund_no )) d ON e.refundNo = d.refund_no
+SELECT DISTINCT e.refundStatus ,e.refundNo,e.opStaffName,d.audit_status AS auditStatus,e.createTime,e.contactName,e.contactPhone,e.distributorCode,e.opHallCode FROM 
+( SELECT DISTINCT e.contact_phone AS contactPhone,e.contact_name AS contactName,A .refund_no AS refundNo,to_char(A.create_time, 'YYYY-MM-DD HH24:MI') AS createTime, A.refund_status AS refundStatus,A .op_staff_name AS opStaffName,A.distributor_code AS distributorCode,A.op_hall_code AS opHallCode FROM order_info e JOIN refund A ON e.order_no = A .order_no ) e JOIN ( SELECT b.audit_status,b.refund_no,b.op_staff_name FROM refund_log b WHERE b.create_time = ( SELECT MAX (create_time) FROM refund_log C WHERE b.refund_no = C .refund_no )) d ON e.refundNo = d.refund_no
 where  AND e.refundNo ~ 
 ```
 
