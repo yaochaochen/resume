@@ -210,7 +210,7 @@ public class YueBusinessLogicException extends YueException {
 ## 国外书籍阅读
 
 - [J2EE.Development.without.EJB]([https://github.com/yaochaochen/note/tree/master/%E4%B9%A6%E7%B1%8D](https://github.com/yaochaochen/note/tree/master/书籍)
-- [Spring-Integration-for-EAI]([https://github.com/yaochaochen/note/blob/master/%E5%9B%BD%E5%A4%96%E9%9D%A2%E8%AF%95%E9%A2%98/Spring-Integration-for-EAI.pdf](https://github.com/yaochaochen/note/blob/master/国外面试题/Spring-Integration-for-EAI.pdf)
+- [Spring-Integration-for-EAI]((https://github.com/yaochaochen/note/blob/master/国外面试题/Spring-Integration-for-EAI.pdf)
 - [JSR规约](https://github.com/yaochaochen/jsr)
 
 ------
