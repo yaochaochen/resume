@@ -222,6 +222,14 @@ public class YueBusinessLogicException extends YueException {
 - [Spring IoC讨论](https://github.com/yaochaochen/note/blob/master/spring-dive/Spring%20IOC%20%E5%AE%B9%E5%99%A8%E6%A6%82%E8%BF%B0.md]) 
 
 ## 技能清单
+- Java：JavaEE/SE
+- Spring 框架: SpringFramework/SpringBoot/SpringData/SpringColud
+- 阿里系框架: Dubbo2.7X/Sentinel/FastJosn/spring-context-support
+- 中间件: Kafka/RoketMQ
+- 数据库: PgSQL/MySQL/NoSQL
+- 版本管理: GitLab/Svn/CI/CD
+- 单元测试: EasyMock/SpringUnit
+- 开放平台: 微信应用开发
 
 ## 自我评价
 
