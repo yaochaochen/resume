@@ -221,7 +221,8 @@ public class YueBusinessLogicException extends YueException {
 
 - Mock使用分享 
 - [机器学习简单应用分享](https://github.com/yaochaochen/note/blob/master/Machine/机器学习算法基础.md)
-- [Spring IoC讨论](https://github.com/yaochaochen/note/blob/master/spring-dive/Spring%20IOC%20%E5%AE%B9%E5%99%A8%E6%A6%82%E8%BF%B0.md]) 
+- [Spring IoC讨论](https://github.com/yaochaochen/note/blob/master/spring-dive/Spring%20IOC%20%E5%AE%B9%E5%99%A8%E6%A6%82%E8%BF%B0.md) 
+- [如何高效做 Code Review](https://github.com/yaochaochen/note/blob/master/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4Java%E8%A7%84%E8%8C%83%E6%89%8B%E5%86%8C%E8%A7%A3%E8%AF%BB/md/%E5%A6%82%E4%BD%95%E6%9C%89%E6%95%88%E5%81%9ACode%20Review.md)
 
 ## 技能清单
 - Java：JavaEE/SE
