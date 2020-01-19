@@ -231,7 +231,7 @@ public class YueBusinessLogicException extends YueException {
 - 数据库: PgSQL/MySQL/NoSQL
 - 版本管理: GitLab/Svn/CI/CD
 - 单元测试: EasyMock/SpringUnit
-- 开放平台: 微信应用开发
+- 开放平台: 微信应用开发/阿里钉钉开发平台
 
 ## 自我评价
 
