@@ -201,7 +201,7 @@ public class YueBusinessLogicException extends YueException {
 - [Spring-Dive](https://github.com/yaochaochen/note/blob/master/spring-dive/)
 
 - [Spring-Boot-Dive](https://github.com/yaochaochen/note/blob/master/spring-boot-dive)
-- [每日SQL]([https://github.com/yaochaochen/note/blob/master/sql/SQL%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98.md](https://github.com/yaochaochen/note/blob/master/sql/SQL每日一题.md)) 
+- [每日SQL]([https://github.com/yaochaochen/note/blob/master/sql/SQL%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98.md](https://github.com/yaochaochen/note/blob/master/sql/SQL每日一题.md)
 
 ------
 
@@ -209,8 +209,8 @@ public class YueBusinessLogicException extends YueException {
 
 ## 国外书籍阅读
 
-- [J2EE.Development.without.EJB]([https://github.com/yaochaochen/note/tree/master/%E4%B9%A6%E7%B1%8D](https://github.com/yaochaochen/note/tree/master/书籍))
-- [Spring-Integration-for-EAI]([https://github.com/yaochaochen/note/blob/master/%E5%9B%BD%E5%A4%96%E9%9D%A2%E8%AF%95%E9%A2%98/Spring-Integration-for-EAI.pdf](https://github.com/yaochaochen/note/blob/master/国外面试题/Spring-Integration-for-EAI.pdf))
+- [J2EE.Development.without.EJB]([https://github.com/yaochaochen/note/tree/master/%E4%B9%A6%E7%B1%8D](https://github.com/yaochaochen/note/tree/master/书籍)
+- [Spring-Integration-for-EAI]([https://github.com/yaochaochen/note/blob/master/%E5%9B%BD%E5%A4%96%E9%9D%A2%E8%AF%95%E9%A2%98/Spring-Integration-for-EAI.pdf](https://github.com/yaochaochen/note/blob/master/国外面试题/Spring-Integration-for-EAI.pdf)
 - [JSR规约](https://github.com/yaochaochen/jsr)
 
 ------
